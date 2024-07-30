@@ -38,7 +38,7 @@ class PrecheckImagePlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
   }
 
   override fun onMethodCall(call: MethodCall, result: Result) {
-    if (call.method == "getPlatformVersion") {
+    if (call.method == "launchCamera") {
       launchCamera(result)
     } else {
       result.notImplemented()

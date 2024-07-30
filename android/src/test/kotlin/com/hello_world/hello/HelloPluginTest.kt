@@ -18,7 +18,7 @@ internal class HelloPluginTest {
   fun onMethodCall_getPlatformVersion_returnsExpectedValue() {
     val plugin = PrecheckImagePlugin()
 
-    val call = MethodCall("getPlatformVersion", null)
+    val call = MethodCall("launchCamera", null)
     val mockResult: MethodChannel.Result = Mockito.mock(MethodChannel.Result::class.java)
     plugin.onMethodCall(call, mockResult)
 
