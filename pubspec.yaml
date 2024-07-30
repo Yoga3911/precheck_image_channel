@@ -1,11 +1,11 @@
-name: hello
+name: precheck_image
 description: "A new Flutter plugin project."
 version: 0.0.1
 homepage:
 
 environment:
-  sdk: '>=3.4.3 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: ">=3.4.3 <4.0.0"
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
@@ -35,8 +35,8 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.hello_world.hello
-        pluginClass: HelloPlugin
+        package: com.pakektp.precheck_image
+        pluginClass: PrecheckImagePlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
