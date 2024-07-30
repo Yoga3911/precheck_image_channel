@@ -1,7 +1,7 @@
 name: precheck_image
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: "https://github.com/Yoga3911/precheck_image_channel"
 
 environment:
   sdk: ">=3.4.3 <4.0.0"
