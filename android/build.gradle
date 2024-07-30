@@ -6,6 +6,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://www.jitpack.io' }
     }
 
     dependencies {
@@ -18,7 +19,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        flatDir { dirs "libs" }
+        maven { url 'https://www.jitpack.io' }
     }
 }
 
@@ -70,7 +71,8 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    implementation "com.github.Yoga3911:image-android-mlkit:1.0.8"
+//    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
 //    implementation(name: 'precheckimagequality-release', ext: 'aar')
 //    api project(':precheckImage')
 //    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs_nio:2.0.3")
