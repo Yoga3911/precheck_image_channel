@@ -1,3 +1,2 @@
-include ':precheckImage'
-
 rootProject.name = 'precheck_image'
+include ':precheckImage'
