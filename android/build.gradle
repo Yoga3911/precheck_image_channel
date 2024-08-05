@@ -94,5 +94,5 @@ dependencies {
     // implementation "androidx.constraintlayout:constraintlayout:2.2.0-alpha13"
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation "com.github.Yoga3911:image-android-mlkit:1.0.18"
+    implementation "com.github.Yoga3911:image-android-mlkit:1.0.19"
 }
