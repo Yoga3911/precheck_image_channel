@@ -23,7 +23,7 @@ abstract class PrecheckImagePlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<String?> getPlatformVersion() {
+  Future<String?> launchCamera() {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
 }

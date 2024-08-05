@@ -1,8 +1,7 @@
-
 import 'platform_interface.dart';
 
 class PrecheckImage {
-  Future<String?> getPlatformVersion() {
-    return PrecheckImagePlatform.instance.getPlatformVersion();
+  Future<String?> launchCamera() {
+    return PrecheckImagePlatform.instance.launchCamera();
   }
 }
